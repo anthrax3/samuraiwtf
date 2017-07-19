@@ -164,6 +164,12 @@ git clone https://github.com/fuzzdb-project/fuzzdb.git
 wget -q -O https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2.6.0_Crossplatform.zip /tmp/installers/
 unzip /tmp/installers/ZAP_2.6.0_Crossplatform.zip 
 
+# install commix from Git at https://github.com/commixproject/commix
+git clone https://github.com/commixproject/commix.git
+
+# install TPLmap from Git at https://github.com/epinna/tplmap
+git clone https://github.com/epinna/tplmap.git
+
 #Hack to fix w3af_console
 sudo ln -s /usr/bin/python /usr/bin/python2.5
 
